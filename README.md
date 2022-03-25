@@ -5,7 +5,9 @@ sudo pacman -Syyu a52dec faac faad2 flac jasper lame libdca libdv libmad libmpeg
 
 sudo snap install brave
 
-sudo snap install vscode
+sudo ln -s /var/lib/snapd/snap /snap
+
+sudo snap install code --classic
 
 yay -Syu discord
 
