@@ -16,15 +16,6 @@ sudo nano /etc/pacman.conf
 [alerque]
 Server = https://arch.alerque.com/$arch
 
-[core-x86-64-v3]
-Include = /etc/pacman.d/alhp-mirrorlist
-
-[extra-x86-64-v3]
-Include = /etc/pacman.d/alhp-mirrorlist
-
-[community-x86-64-v3]
-Include = /etc/pacman.d/alhp-mirrorlist
-
 [andontie-aur]
 Server = https://aur.andontie.net/$arch
 
